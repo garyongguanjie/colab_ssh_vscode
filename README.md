@@ -8,6 +8,7 @@ Create your own public facing local server. I used a local ubuntu 18.04 VM for t
 # Step 2 create your own private public key
 Use `ssh-keygen` to create a public-private keypair. Add public key to your local server. A more detailed tutorial can be seen [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604).
 # Step 3
+See `colab_ssh_vscode.ipynb`\
 On colab:
 * Install Openssh server
 * Upload private key
