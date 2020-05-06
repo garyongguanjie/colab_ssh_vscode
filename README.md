@@ -21,5 +21,5 @@ ssh -p FORWARDED_PORT_LOCAL root@localhost
 localhost as it has been forwarded to your local machine
 # Step 4 set up vscode
 If your server is your personal machine just use vscode remote extension to `ssh root@localhost -p FORWARDED_PORT_LOCAL`\
-If your server is a vm or another machine you need a [jump-host](https://code.visualstudio.com/blogs/2019/10/03/remote-ssh-tips-and-tricks#_proxycommand)
+If your server is a vm or another machine you need a [jump-host](https://code.visualstudio.com/blogs/2019/10/03/remote-ssh-tips-and-tricks#_proxycommand).
 See ipynb for ssh config file samples
