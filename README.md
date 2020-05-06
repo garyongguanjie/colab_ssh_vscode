@@ -16,7 +16,7 @@ On colab:
 * Set up reverse ssh
 You can now ssh into colab using 
 ```
-ssh root@localhost -p 9999
+ssh -p FORWARDED_PORT_LOCAL root@localhost 
 ```
 localhost as it has been forwarded to your local machine
 # Step 4 set up vscode
